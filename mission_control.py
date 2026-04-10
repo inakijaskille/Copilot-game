@@ -50,7 +50,7 @@ def main():
     # Loop through crew members and assign missions
     for index, crew_member in enumerate(crew_members):
         mission = mission_assignments[index]
-        assigned_crew = assign_mission(crew_member, mission)
+        assigned_crew = assign_mission(crew_member, mssion)
         
         # Display crew member information and assignment
         print(f"Crew Member {index + 1}:")
